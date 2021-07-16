@@ -6,7 +6,7 @@ import { sleep } from 'k6';  //step one, basic
  * It’s always a good idea to pace out your VUs by adding a sleep statement at the end of the default function. This simulates how real users use your system. You can set the value lower to 0.1 for simulating aggressive behaviors. If you intend to simulate users that constantly call your API, simply remove the sleep statement.
  */
 
-// 1. !st test of my  API with 10 VUs and a duration of 5s
+// 1. 1st test of my  API with 10 VUs and a duration of 5s
 export let options = {
   vus: 10,
   duration: '5s',
