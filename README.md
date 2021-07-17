@@ -1,5 +1,6 @@
 This little project has been created to  document some basic performance Testing of a few of my apps and website.
 More updates will come...
+  * Notes: handleSummary callback hook added to produce htmlReport alone or combined with stdout textSummary.
 
 
 
